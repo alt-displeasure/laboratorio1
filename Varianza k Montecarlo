@@ -1,0 +1,15 @@
+import numpy as np
+N = 10000
+A = 2.93 + 0.02*np.random.randn(N)
+G = 9.7968824 + 0.0000002*np.random.randn(N)
+  
+k = []
+
+for i in range(len(A)):
+  value = G[i] * A[i]
+  k.append(value)
+
+k_mean = np.mean(k)
+sigma_k = np.std(k)
+
+print(k_mean, sigma_k)
