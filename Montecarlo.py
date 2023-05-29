@@ -1,4 +1,5 @@
 #Cálculo de la varianza con Monte Carlo
+#Algunos de los calculos utilizados en el reporte:
 
 #Para la constante del resorte a partir de la gravedad y la pendiente del método estático
 N = 10000
