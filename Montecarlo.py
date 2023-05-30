@@ -31,7 +31,7 @@ print(l0_mean, sigma_l0)
 
 #Para la constante del resorte en el método dinámico, con la masa del resorte incluida
 N = 10000
-A = 0.033988108 + 0.000000002*np.random.randn(N)
+A = 0.03585410 + 0.00000008*np.random.randn(N)
   
 k = 1 / A
 
